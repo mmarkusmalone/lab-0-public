@@ -1,7 +1,7 @@
 ---
 title: "Lab 0 - Hello R!"
-author: "[INSERT NAME]"
-date: "[INSERT DATE]"
+author: "Maya Markus-Malone"
+date: "1/17/23"
 format: pdf
 editor: visual
 ---
@@ -17,29 +17,11 @@ library(datasauRus)
 
 ## Exercise 1
 
-(Type your answer to exercise #1 here. Note this exercise doesn't require any R code.)
+13 rows, 1 column
 
 ## Exercise 2
 
-(The answer for this exercise is given below, but you should clean up the narrative so it only includes what you want to turn in.)
-
-First, let's plot the data in the dino dataset (we will cover **ggplot2** in much more depth next week):
-
-```{r}
-#| label: plot-dino
-dino_data <- datasaurus_dozen %>%
-  filter(dataset == "dino")
-ggplot(data = dino_data, mapping = aes(x = x, y = y)) + 
-  geom_point()
-```
-
-Next calculate the correlation between `x` and `y` in this dataset.
-
-```{r}
-#| label: cor-dino
-dino_data %>%
-  summarize(r = cor(x, y))
-```
+R=-.0645
 
 ## Exercise 3
 
@@ -63,10 +45,8 @@ Conclude with some more narrative, if needed.
 
 ## Exercise 4
 
-(Add a labeled code chunk and narrative here. Insert code chunks using the "insert chunk" button (a green C with a +).
-Alternatively, use CMD + OPTION + I (Mac) or CTRL + ALT + I (Windows).)
+(Add a labeled code chunk and narrative here. Insert code chunks using the "insert chunk" button (a green C with a +). Alternatively, use CMD + OPTION + I (Mac) or CTRL + ALT + I (Windows).)
 
 ## Exercise 5
 
-(Add a labeled code chunk and narrative here. Insert code chunks using the "insert chunk" button (a green C with a +).
-Alternatively, use CMD + OPTION + I (Mac) or CTRL + ALT + I (Windows).)
+(Add a labeled code chunk and narrative here. Insert code chunks using the "insert chunk" button (a green C with a +). Alternatively, use CMD + OPTION + I (Mac) or CTRL + ALT + I (Windows).)
